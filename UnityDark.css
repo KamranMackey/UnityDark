@@ -32,11 +32,11 @@ div.crumbs ul li {
 }
 
 .lessons-list ol li.current {
-	color: #dfdfdf
+	color: #dfdfdf;
 }
 
 .lessons-list ol li a {
-	color: #aeaeae
+	color: #aeaeae;
 }
 
 .bl {
@@ -153,7 +153,7 @@ nav.tertiary-nav div.wrap ul.tabbed li:first-child {
  *
 ******************************/
 header.main-header a.app-name, header.main-header a.app-name:hover {
-	color: #fff
+	color: #fff;
 }
 
 div.sidebar-navigation ul li a {
@@ -183,11 +183,8 @@ div.sidebar-navigation ul li ul:before {
 }
 
 div.block-header {
-	width: 100%;
-	padding: 30px;
 	border-bottom: #424242 1px solid;
 	background: #2b2b2b !important;
-	position: relative;
 }
 
 div.item-list .item div.lbl {
@@ -527,7 +524,7 @@ md-select.md-default-theme .md-select-value.md-select-placeholder, md-select .md
 *******************************/
 
 .otherversionscontent {
-	background-color: #424242
+	background-color: #424242;
 }
 
 .otherversionscontent a {
