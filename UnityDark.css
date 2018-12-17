@@ -75,7 +75,13 @@ div.block-footer {
 	background: rgba(123, 123, 123, 0.9);
 }
 
-/** Force the white Unity logo to appear on all pages **/
+/**
+ * Use the white Unity logo on all pages.
+ *
+ * This is a hacky way to do this as the URL to
+ * this image can change at any time. But if it
+ * does, I'll try my best to update the broken URL.
+ */
 header.main-header a.unity-logo {
 	background-image: url('https://unity3d.com/profiles/unity3d/themes/unity/images/ui/ui/unity-logo-white.svg');
 }
@@ -84,7 +90,8 @@ header.main-header a.unity-logo {
 	color: #c8c8c8;
 }
 
-div.select-box ul.options li a, div.select-box ul.options li a:hover, div.select-box ul.options li a:active, div.select-box ul.options li a:focus {
+div.select-box ul.options li a, div.select-box ul.options li a:hover, 
+div.select-box ul.options li a:active, div.select-box ul.options li a:focus {
 	color: #f3f3f3;
 }
 
