@@ -4,7 +4,7 @@
  * Author:  Rickard Andersson, rickard@unity3d.com
  * DARK THEME CREDITS:
  * Author: Kamran Mackey <kamranm1200@gmail.com>
- * Version: 1.0.1 (Helium)
+ * Version: 1.1 (Nitrogen)
  * Last update: December 16, 2018
 *********************************************************/
 
@@ -49,7 +49,7 @@ header.main-header {
 }
 
 div.main-navigation:before {
-	background: #2b2b2b;
+	background: transparent;
 }
 
 nav.sub-nav:before, nav.sub-nav:after {
@@ -65,9 +65,7 @@ ul li:before {
 }
 
 div.block-footer {
-	width: 100%;
 	background: #2b2b2b;
-	padding: 30px 30px 20px 30px;
 	border-top: #2b2b2b 1px solid;
 }
 
@@ -75,12 +73,17 @@ div.block-footer {
 	background: rgba(123, 123, 123, 0.9);
 }
 
+.fancybox-skin {
+    background: #424242;
+    color: #fff;
+}
+
 /**
  * Use the white Unity logo on all pages.
  *
- * This is a hacky way to do this as the URL to
- * this image can change at any time. But if it
- * does, I'll try my best to update the broken URL.
+ * This is a hacky way to do this as the URL to this image
+ * can change at any time. But if it does, I'll try my best 
+ * to fix the broken URL.
  */
 header.main-header a.unity-logo {
 	background-image: url('https://unity3d.com/profiles/unity3d/themes/unity/images/ui/ui/unity-logo-white.svg');
@@ -102,6 +105,10 @@ div.select-box ul.options {
 
 div.select-box ul.options a:hover {
 	background-color: #333;
+}
+
+.bg-light-grey {
+	background: #2b2b2b;
 }
 
 /**********************************
@@ -200,14 +207,74 @@ nav.tertiary-nav div.wrap ul.tabbed li:first-child {
 	color: #f2f2f2;
 }
 
+/******************************
+ *
+ * UNITY PRESS RELEASES
+ *
+******************************/
+.node-type-unity-news h1, .node-type-unity-news h2, 
+.node-type-unity-news h3 {
+	color: #fff;
+}
+
 
 /******************************
  *
- * UNITY ID SPECIFIC CSS
+ * UNITY ID
  *
 ******************************/
+header.main-header a.user-icon > i {
+	color: #fff;
+}
+
 header.main-header a.app-name, header.main-header a.app-name:hover {
 	color: #fff
+}
+
+div.user-head .profile-name {
+	color: #fff;
+}
+
+div.user-head .profile-email {
+	color: #c8c8c8;
+}
+
+.dashboard div.header-panel {
+	border-top-color: #424242;
+}
+
+div.user-head .orgs {
+	border-top-color: #424242;
+}
+
+div.user-head .user-panel-item {
+	color: rgba(255,255,255,0.8);
+	border-top-color: #424242;
+}
+
+div.user-head .user-panel-item:hover {
+	background-color: #424242;
+}
+
+div.user-head .orgs .org-items > a:hover, 
+div.user-head .orgs .org-items > a.on {
+    background-color: #424242;
+}
+
+div.user-head .user-panel-item:last-child {
+	border-bottom-color: #424242;
+}
+
+div.user-head .orgs .org-items > a, div.user-head .orgs .org-items > div {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.account_settings .item-box {
+	color: #fff;
+}
+
+.item-list div.item-title {
+	color: #fff;
 }
 
 div.sidebar-navigation ul li a {
@@ -255,6 +322,10 @@ div.item-list .item {
 	background-color: #545353;
 }
 
+.security .block-header, .security .block {
+    background-color: #424242 !important;
+}
+
 div.form-field-helper {
 	background: #919191;
 	border-bottom: #2196f3 5px solid;
@@ -262,7 +333,17 @@ div.form-field-helper {
 
 /*****************************
 *
-* UNITY STORE SPECIFIC CSS
+* UNITY EDUCATION
+*
+*****************************/
+.component-card {
+	background: #424242;
+	color: #fff;
+}
+
+/*****************************
+*
+* UNITY STORE
 *
 *****************************/
 div.header-panel {
@@ -577,6 +658,61 @@ md-select.md-default-theme .md-select-value.md-select-placeholder, md-select .md
  *
 *******************************/
 
+div.header .more .filler {
+	background: #424242;
+}
+
+div.toolbar div.script-lang div.dialog-content {
+	border-top-color: #424242;
+	background: #424242;
+}
+
+div.toolbar div.script-lang div.dialog-content p {
+	border-top-color: #808080;
+}
+
+div.toolbar div.script-lang ul li {
+	background: #424242;
+}
+
+div.toolbar div.script-lang ul li:hover {
+	background: #808080;
+}
+
+div.toolbar div.script-lang ul li.selected {
+	background: #666;
+}
+
+div.toolbar div.script-lang div.dialog:before {
+	border-bottom-color: #424242;
+}
+
+div.header .more ul li a {
+	color: #fff;
+	transition: ease-out .15s;
+}
+
+div.header .more ul li a:hover {
+	color: #31daec;
+	transition: ease-in .15s;
+}
+
+div.version-number {
+	background: #2b2b2b;
+}
+
+div.message-error {
+    background: #a00303;
+}
+
+.gray-btn {
+	background: #424242;
+}
+
+.gray-btn:hover {
+	background: #808080;
+}
+
 .otherversionscontent {
 	background-color: #424242;
 }
@@ -589,6 +725,58 @@ md-select.md-default-theme .md-select-value.md-select-placeholder, md-select .md
 	background: #424242;
 }
 
+.content .section a {
+	text-decoration: underline;
+	color: #fff;
+	transition: ease-out .15s;
+}
+
+.content .section a:hover {
+	text-decoration: underline;
+	color: #31daec;
+	transition: ease-in .15s;
+}
+
+.version-number a {
+	text-decoration: underline;
+	color: #dbdbdb;
+	transition: ease-out .15s;
+}
+
+.version-number a:hover {
+	text-decoration: underline;
+	color: #31daec;
+	transition: ease-in .15s;
+}
+
+.tooltip .tooltiptext {
+	background: #424242;
+	color: #fff;
+}
+
+.tooltip .tooltiptext a {
+	transition: none;
+}
+
+/**
+ * WARNING: Backwards compatibility only!
+ *
+ * These lines of CSS exist soley for the purpose of maintaining
+ * backwards compatibility with Unity documentation versions 5.0.x
+ * to 5.2.x. Newer versions of Unity's documentation lack the history
+ * table, most likely due to the Unity API having grown so large since 
+ * 5.2.x. Once Unity Technologies removes the older documentation from 
+ * their site, these lines will be removed, unless other uses of these
+ * lines are discovered which warrant keeping this around.
+ **/
+.history-table th {
+	background: #424242;
+}
+
+.history-table td {
+	border-bottom-color: #424242;
+}
+
 div.sidebar-menu ul li a {
 	color: #dfdfdf;
 }
@@ -599,6 +787,10 @@ div.lang-switcher div.current div.arrow {
 
 div.search-results h2 {
 	border-bottom-color: #424242;
+}
+
+div.sidebar p {
+	background: #2b2b2b;
 }
 
 div.sidebar-menu ul li a:hover {
@@ -693,7 +885,7 @@ div.obsolete-version-number {
 	background: #2b2b2b;
 }
 
-.codeExampleCS {
+.codeExampleCS, .codeExampleJS {
 	background: #2b2b2b;
 	color: #d0d0d0;
 }
