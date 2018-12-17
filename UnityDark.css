@@ -4,7 +4,7 @@
  * Author:  Rickard Andersson, rickard@unity3d.com
  * DARK THEME CREDITS:
  * Author: Kamran Mackey <kamranm1200@gmail.com>
- * Version: 1.1 (Nitrogen)
+ * Version: 1.1.1 (Nitrogen)
  * Last update: December 16, 2018
 *********************************************************/
 
@@ -662,6 +662,14 @@ div.header .more .filler {
 	background: #424242;
 }
 
+.mCSB_scrollTools .mCSB_draggerRail {
+	background: #424242;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background: #bbbbbb;
+}
+
 div.toolbar div.script-lang div.dialog-content {
 	border-top-color: #424242;
 	background: #424242;
@@ -705,6 +713,10 @@ div.message-error {
     background: #a00303;
 }
 
+div.subsection div.subsection h2 {
+	color: #fff;
+}
+
 .gray-btn {
 	background: #424242;
 }
@@ -737,12 +749,14 @@ div.message-error {
 	transition: ease-in .15s;
 }
 
+.obsolete-version-number a,
 .version-number a {
 	text-decoration: underline;
 	color: #dbdbdb;
 	transition: ease-out .15s;
 }
 
+.obsolete-version-number a:hover,
 .version-number a:hover {
 	text-decoration: underline;
 	color: #31daec;
@@ -758,10 +772,20 @@ div.message-error {
 	transition: none;
 }
 
+.content .section table thead th {
+	background: #3e3e3e;
+	border-color: #606060;
+}
+
+.content .section table tbody td {
+	background: #373737;
+	border-color: #606060;
+}
+
 /**
  * WARNING: Backwards compatibility only!
  *
- * These lines of CSS exist soley for the purpose of maintaining
+ * These lines of CSS exist solely for the purpose of maintaining
  * backwards compatibility with Unity documentation versions 5.0.x
  * to 5.2.x. Newer versions of Unity's documentation lack the history
  * table, most likely due to the Unity API having grown so large since 
@@ -896,6 +920,18 @@ table.list tr:nth-child(odd) {
 
 div.footer {
 	border-top-color: #424242;
+}
+
+div.footer div.copy a {
+	color: #d0d0d0;
+	text-decoration: none;
+	transition: ease-out .15s;
+}
+
+div.footer div.copy a:hover {
+	color: #4ddaec;
+	text-decoration: underline;
+	transition: ease-in .15s;
 }
 
 div.sidebar-wrap {
