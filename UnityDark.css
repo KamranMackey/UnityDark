@@ -237,11 +237,8 @@ div.sidebar-navigation ul li ul:before {
 }
 
 div.block-header {
-	width: 100%;
-	padding: 30px;
 	border-bottom: #424242 1px solid;
 	background: #2b2b2b !important;
-	position: relative;
 }
 
 div.item-list .item div.lbl {
@@ -581,7 +578,7 @@ md-select.md-default-theme .md-select-value.md-select-placeholder, md-select .md
 *******************************/
 
 .otherversionscontent {
-	background-color: #424242
+	background-color: #424242;
 }
 
 .otherversionscontent a {
@@ -602,10 +599,6 @@ div.lang-switcher div.current div.arrow {
 
 div.search-results h2 {
 	border-bottom-color: #424242;
-}
-
-div.sidebar-menu ul li {
-	transition: ease-in .60s;
 }
 
 div.sidebar-menu ul li a:hover {
