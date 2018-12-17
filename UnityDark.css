@@ -243,7 +243,7 @@
 	
 	div.pagination a.next_page {
 		text-indent: -9999em;
-		background: #424242 url(//unity3d.com/profiles/unity3d/themes/unity/images/assets/layout/core-sprites.png) -39px -113px no-repeat;
+		background: #424242 url(https://unity3d.com/profiles/unity3d/themes/unity/images/assets/layout/core-sprites.png) -39px -113px no-repeat;
 		border-color: #424242;
 		transition: ease-in .15s;
 		transform: rotate(180deg);
@@ -252,13 +252,13 @@
 	div.pagination a.previous_page {
 		text-indent: -9999em;
 		border-color: #424242;
-		background: #424242 url(//unity3d.com/profiles/unity3d/themes/unity/images/assets/layout/core-sprites.png) -39px -113px no-repeat;
+		background: #424242 url(https://unity3d.com/profiles/unity3d/themes/unity/images/assets/layout/core-sprites.png) -39px -113px no-repeat;
 		transition: ease-in .15s;
 	}
 	
 	div.pagination a.previous_page:hover, 
 	div.pagination a.next_page:hover {
-		background: #333 url(//unity3d.com/profiles/unity3d/themes/unity/images/assets/layout/core-sprites.png) -39px -113px no-repeat;
+		background: #333 url(https://unity3d.com/profiles/unity3d/themes/unity/images/assets/layout/core-sprites.png) -39px -113px no-repeat;
 		transition: ease-out .15s;
 		border-color: #fff;
 	}
